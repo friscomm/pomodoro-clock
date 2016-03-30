@@ -1,0 +1,31 @@
+body {
+  background-color: antiquewhite;
+}
+
+.preMatch {
+  background-color: antiquewhite;
+  border: none;
+}
+
+.big-btn {
+  border-radius: 50%;
+  height: 250px;
+  width: 500px;
+  font-size:400%;
+}
+
+.small-btn-rt {
+  border-radius: 5px 20px 5px;
+   margin-right: 20px
+}
+
+.small-btn-lf {
+  border-radius: 20px 5px 20px;
+    margin-right: 10px;
+      margin-left: 20px
+}
+
+.row {
+  font-size: 200%;
+}
+  
