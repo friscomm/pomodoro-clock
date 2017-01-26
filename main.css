@@ -1,15 +1,20 @@
 body {
-  background-color: rgb(0, 0, 0);
+  background-color: rgb(43, 43, 43);
   color: rgb(82, 115, 200);
 }
 
 .preMatch {
-  background-color: rgba(0, 0, 0, 0.72);
-  border: none;
+  background-color: rgb(43, 43, 43);
+  color: rgb(82, 115, 200);
 }
 
 h1 {
-  color: rgb(96, 13, 190);
+  color: rgb(83, 8, 167);
+}
+
+.btn:focus,
+.btn:active:focus {
+  outline: none;
 }
 
 .big-btn {
@@ -17,8 +22,13 @@ h1 {
   height: 250px;
   width: 250px;
   font-size:400%;
-  background-color: rgb(96, 13, 190);
+  background-color: rgb(83, 8, 167);
   border: 2px solid rgb(96, 13, 190);
+  color: rgb(143, 142, 249);
+}
+
+.big-btn:hover {
+  color: rgb(180, 179, 244);
 }
 
 .small-btn-rt {

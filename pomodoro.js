@@ -1,6 +1,48 @@
 $(document).ready(function() {
-  var intervalID;
+  $('#add-focus').click(function(){
+    let focusTime = parseInt($('.focusTime').text());
+    console.log(`This is the focusTime: ${focusTime}`);
+    let newTime = focusTime + 1;
+    console.log(`This is the newTime: ${newTime}`);
+    $('.focusTime').text(newTime);
+  });
+});
 
+$(document).ready(function() {
+  $('#minus-focus').click(function(){
+    let focusTime = parseInt($('.focusTime').text());
+    console.log(`This is the focusTime: ${focusTime}`);
+    let newTime = focusTime - 1;
+    console.log(`This is the newTime: ${newTime}`);
+    $('.focusTime').text(newTime);
+  });
+});
+
+
+
+
+
+$('#add-break').click(function(){
+  let focusTime = parseInt($('.focusTime').text());
+  let newTime = focusTime + 1;
+  $('.focusTime').html(newTime);
+});
+
+$('#minus-focus').click(function(){
+  let focusTime = parseInt($('.focusTime').text());
+  let newTime = focusTime + 1;
+  $('.focusTime').html(newTime);
+});
+
+  let breakTime = parseInt($('.breakTime').text());
+
+
+
+/*
+--------------------------------------
+
+$(document).ready(function() {
+  var intervalID;
   $(".big-btn").on("click", function() {
     var seshTime = parseInt($(".seshNum").text());
     var breakTime = parseInt($(".breakNum").text());
@@ -43,7 +85,7 @@ $(document).ready(function() {
 
 });
 
-/* The code below is for the 4 plus and minus buttons, to adjust the session & break length  */
+
 
 //session plus button
 $(document).ready(function() {
@@ -88,3 +130,6 @@ $(document).ready(function() {
     }
   });
 });
+
+--------------------------------------
+*/
