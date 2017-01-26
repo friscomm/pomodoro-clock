@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta chartset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script
+      src="https://code.jquery.com/jquery-3.1.1.min.js"
+      integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
+      crossorigin="anonymous"></script>
+    <!-- Latest compiled and minified CSS -->
+    <link
+      rel="stylesheet"   href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <!-- Latest compiled and minified JavaScript -->
+    <script
+       src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+      <link
+        rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+      <link rel="stylesheet" type="text/css" href="main.css" />
+  </head>
+  <body>
+
+    <div class="fluid-container text-center" <body>
+      <h1>Pomodoro Clock</h1>
+      <br>
+      <div class="row">
+        <pre class="preMatch">Break length      Session length</pre>
+        <button type="button" class="btn btn-primary-outline small-btn-lf" id="break-minus-btn">-
+        </button><span class="breakNum">5</span>
+        <button type="button" class="btn small-btn-rt" id="break-plus-btn">+
+        </button>
+        <button type="button" class="btn small-btn-lf" id="sesh-minus-btn">-
+        </button><span class="seshNum">25</span>
+        <button type="button" class="btn btn-primary-outline small-btn-rt" id="sesh-plus-btn">+
+        </button>
+      </div>
+
+    <!--
+      <audio class="bell" autoplay src="http://www.soundjay.com/misc/sounds/bell-ring-01.mp3">
+      </audio>
+      Can do digital or analogue options?
+      click a button to switch
+      Purple pink and black color scheme on the page, could use blue/green for the clock itself but the background of the clock can change each time it goes up and then comes back down, can use hue and just add to it each time it changes
+      difference between work and break times (blue for relax)
+    -->
+
+      <br>
+      <br>
+      <button class="btn big-btn">Session
+        <br> <span class="time">25</span>
+      </button>
+      <br>
+    </div>
+    <script src="pomodoro.js"></script>
+  </body>
+</html>

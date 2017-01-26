@@ -1,26 +1,33 @@
 body {
-  background-color: antiquewhite;
+  background-color: rgb(0, 0, 0);
+  color: rgb(82, 115, 200);
 }
 
 .preMatch {
-  background-color: antiquewhite;
+  background-color: rgba(0, 0, 0, 0.72);
   border: none;
+}
+
+h1 {
+  color: rgb(96, 13, 190);
 }
 
 .big-btn {
   border-radius: 50%;
   height: 250px;
-  width: 500px;
+  width: 250px;
   font-size:400%;
+  background-color: rgb(96, 13, 190);
+  border: 2px solid rgb(96, 13, 190);
 }
 
 .small-btn-rt {
-  border-radius: 5px 20px 5px;
+  border-radius: 15px;
    margin-right: 20px
 }
 
 .small-btn-lf {
-  border-radius: 20px 5px 20px;
+  border-radius: 15px;
     margin-right: 10px;
       margin-left: 20px
 }
@@ -28,4 +35,3 @@ body {
 .row {
   font-size: 200%;
 }
-  
